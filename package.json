@@ -6,8 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy:mgnl": "npm run clean && npm run build && copyfiles -u 1 \"dist/**/*\" ../../magnolia/light-modules/vue-minimal-lm/webresources/dist",
-    "clean": "rimraf dist && rimraf ../../magnolia/light-modules/vue-minimal-lm/webresources/dist"
+    "deploy:mgnl": "npm run clean && npm run build",
+    "clean": "rimraf dist"
   },
   "dependencies": {
     "@magnolia/template-annotations": "^1.0.1",
