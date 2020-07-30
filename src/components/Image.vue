@@ -1,5 +1,5 @@
 <template>
-  <img class="Image" v-bind:src="IMAGE_BASE+image['@link']" alt="Etiam Purus" />
+  <img class="Image" v-bind:src="imgURL+image['@link']" alt="Etiam Purus" />
 </template>
 
 <script>
