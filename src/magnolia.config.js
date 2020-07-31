@@ -11,8 +11,8 @@ import TourList from "./components/TourList";
 const config = {
   componentMappings: {
     // Pages
-    'vue-minimal-lm:pages/basic': Basic,
-    'vue-minimal-lm:pages/contact': Contact,
+    'vue-extended:pages/basic': Basic,
+    'vue-extended:pages/contact': Contact,
 
     // Components
     'spa-lm:components/headline': Headline,
